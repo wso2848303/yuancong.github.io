@@ -249,6 +249,256 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/07/03/ant-design-感想/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Yuan Cong">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2019/07/03/ant-design-感想/" itemprop="url">ant-design 感想</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-07-03T14:25:27+08:00">
+                2019-07-03
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>在react框架下使用的ui框架并不多，曾经使用过bootstrap，但是bootstrap使用起来并不舒适，一方面是因为文档的关系，但是主要原因还是因为其样式不美观，到最后做出的成品还是需要经过大量的样式修改才可以，但是ant-design是没有这方面问题的，引入后所有组件自带的样式能应付大多数的需求。<br>不过有一句提一句，虽然阿里推出的是ant-design，但是在使用后就会渐渐发现，这个玩意竟然存在使用前提，react版本基本上需要相对比较新得版本才行，不然会导致部分组件完全无法使用（不过应该也是有绕行方案的）。另一点，ant-design的衍生产品ant-design-pro的确是很好的一个组件库，一方面阿里本身提供了一个已搭建完成的项目例子（不过这个也是仁者见仁，毕竟没有通过命令行去初始化项目），另一方面其中的组件也提供单独引用，且易用性上要远远超过了ant-design本身的一些组件。<br>然而比较痛苦的一点，无论是在何种ui框架下，react对于表单的不友好仍然是比较头疼的，毕竟相比vue来讲，其状态控制要更严格，这可能也与文化上的差异有点关系……毕竟vue是本土框架。</p>
+<p>那么<em>如何在react下写出一个优雅的表单呢？</em></p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/07/03/Vuetify-使用感想/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Yuan Cong">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2019/07/03/Vuetify-使用感想/" itemprop="url">Vuetify 使用感想</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-07-03T14:24:00+08:00">
+                2019-07-03
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>使用前提</p>
+<ul>
+<li><em>切勿在对外项目上使用！切勿在对外项目上使用！切勿在对外项目上使用！*由于国内在web端ui设计上与 *Material Design</em> 理念完全不同甚至要繁杂很多，因此非常不建议在对外项目上使用</li>
+<li>对内项目，特别是不想进行样式编写的前提下，建议使用！但是有一定的学习成本存在</li>
+<li>请卸载 <em>vue-cli</em> ，并安装 <em>@vue/cli</em> ，虽然在 <em>vue 2.0</em> 下也可使用，但是由于 <em>Vuetify *官方一直在进行版本迭代，且最新版本已经需要 *vue 3.0</em> 支持，因此建议升级，并在一段时间后对 *Vuetify *进行升级</li>
+<li>一般情况下，不建议使用 <em>vue init vuetify/webpack xxx</em> 命令进行项目初始化，因为经过实践发现，此命令初始化的项目时仍然是通过 <em>vue 2.0</em> 进行创建的，在使用时会发现无法跟从官方文档进行配置（当然有经验者可以无视），并且在决定使用此ui框架时，已经能确认并非一般对外项目，所以……何必自找麻烦呢？</li>
+<li>非常不建议打开 *preventFullImport *，虽然这样可以有针对性的引用组件，但是实践发现这样引用会造成部分组件识别错误，一般情况下建议入口文件中直接通过 *Vue.use(Vuetify) *进行引用</li>
+<li>使用方式与 <em>bootstrap</em> 类似，一般情况下，建议能够直接使用框架定义的标签</li>
+<li>文档地址：<a href="https://vuetifyjs.com/zh-Hans/getting-started/quick-start" target="_blank" rel="noopener">https://vuetifyjs.com/zh-Hans/getting-started/quick-start</a></li>
+</ul>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/07/03/axios全局拦截/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -538,7 +788,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">4</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -551,7 +801,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">6</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
